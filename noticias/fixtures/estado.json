@@ -1,0 +1,50 @@
+[
+    {
+        "model": "noticias.estado",
+        "pk": 1,
+        "fields": {
+            "nombre": "Borrador",
+            "descripcion": "El autor a\u00fan est\u00e1 redactando",
+            "visible_publicamente": false,
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.estado",
+        "pk": 2,
+        "fields": {
+            "nombre": "En revisi\u00f3n",
+            "descripcion": "Esperando aprobaci\u00f3n del editor",
+            "visible_publicamente": false,
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.estado",
+        "pk": 3,
+        "fields": {
+            "nombre": "Publicado",
+            "descripcion": "Visible para los lectores",
+            "visible_publicamente": true,
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.estado",
+        "pk": 4,
+        "fields": {
+            "nombre": "Archivado",
+            "descripcion": "Retirado de la portada",
+            "visible_publicamente": false,
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    }
+]

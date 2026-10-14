@@ -1,0 +1,90 @@
+[
+    {
+        "model": "noticias.pais",
+        "pk": 1,
+        "fields": {
+            "codigo": "CHL",
+            "nombre": "Chile",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 2,
+        "fields": {
+            "codigo": "ARG",
+            "nombre": "Argentina",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 3,
+        "fields": {
+            "codigo": "PER",
+            "nombre": "Per\u00fa",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 4,
+        "fields": {
+            "codigo": "COL",
+            "nombre": "Colombia",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 5,
+        "fields": {
+            "codigo": "MEX",
+            "nombre": "M\u00e9xico",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 6,
+        "fields": {
+            "codigo": "ESP",
+            "nombre": "Espa\u00f1a",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 7,
+        "fields": {
+            "codigo": "USA",
+            "nombre": "Estados Unidos",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.pais",
+        "pk": 8,
+        "fields": {
+            "codigo": "BRA",
+            "nombre": "Brasil",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    }
+]

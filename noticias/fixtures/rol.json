@@ -1,0 +1,46 @@
+[
+    {
+        "model": "noticias.rol",
+        "pk": 1,
+        "fields": {
+            "nombre": "Administrador",
+            "descripcion": "Gestiona usuarios, cat\u00e1logos y todo el contenido",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.rol",
+        "pk": 2,
+        "fields": {
+            "nombre": "Editor",
+            "descripcion": "Revisa y publica art\u00edculos de los autores",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.rol",
+        "pk": 3,
+        "fields": {
+            "nombre": "Autor",
+            "descripcion": "Redacta art\u00edculos",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    },
+    {
+        "model": "noticias.rol",
+        "pk": 4,
+        "fields": {
+            "nombre": "Lector",
+            "descripcion": "Lee, comenta y guarda art\u00edculos",
+            "habilitado": true,
+            "created_at": "2026-10-14T12:00:00Z",
+            "updated_at": "2026-10-14T12:00:00Z"
+        }
+    }
+]
