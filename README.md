@@ -5,7 +5,7 @@ API REST en Django para la gestión de publicaciones periodísticas: artículos,
 ## Tecnologías
 - Python 3.14, Django 5.2 LTS y Django REST Framework
 - MySQL 8.0 con el driver `mysqlclient`
-- `python-decouple` para leer las credenciales desde `.env`
+- `python-decouple` para leer la configuración desde el archivo `.env`
 
 ## Instalación
 1. `git clone https://github.com/JavierGeoffroy/noticias-backend-django.git`
@@ -13,8 +13,8 @@ API REST en Django para la gestión de publicaciones periodísticas: artículos,
 3. `py -m venv .venv`
 4. `.venv\Scripts\Activate.ps1`
 5. `pip install -r requirements.txt`
-6. Crear la base de datos: ejecutar en MySQL los scripts de la carpeta `sql/` en orden (01, 02, 03). Antes, cambiar `CAMBIAR_CLAVE` en el script 02 por una clave real.
-7. Copiar `.env.example` a `.env` y completar `SECRET_KEY` y `DB_PASSWORD` (la misma clave del paso anterior).
+6. Ejecutar como administrador en MySQL el script `sql/crear_base_datos.sql` (crea la base `noticias_db`, el usuario `noticias_user` y sus permisos). Por ejemplo, abriéndolo en MySQL Workbench.
+7. El archivo `.env` ya está incluido en el repositorio con la configuración de conexión y la `SECRET_KEY`.
 8. `python manage.py migrate`
 9. `python manage.py loaddata pais rol estado categoria etiqueta`
 10. `python manage.py createsuperuser`
@@ -31,4 +31,4 @@ API REST en Django para la gestión de publicaciones periodísticas: artículos,
 ## Estructura
 - `noticias_core/`: configuración del proyecto (settings y urls)
 - `noticias/`: app con `models.py`, `serializers.py`, `views.py`, `urls.py`, `admin.py`, `fixtures/` y `migrations/`
-- `sql/`: scripts para crear la base de datos, el usuario y sus permisos
+- `sql/`: script para crear la base de datos, el usuario y sus permisos
